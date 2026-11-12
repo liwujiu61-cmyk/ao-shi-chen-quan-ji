@@ -113,6 +113,7 @@ x.strokeStyle='#D4AF6A';x.lineWidth=6;x.strokeRect(40,40,1000,1360);x.lineWidth=
 const T=(s,y,px,col,b)=>{x.font=(b?'700 ':'')+px+'px '+F;x.fillStyle=col;x.fillText(s,540,y)};
 T('老时辰全集',170,68,'#D4AF6A',1);T('愿你一切安好接福安康',255,40,'#FFF4DA');T(R.big,560,280,'#D4AF6A',1);T(R.l1,790,80,'#FFF4DA',1);if(R.l2)T(R.l2,900,60,'#FFF4DA');
 x.font='38px '+F;let ln='',y=1060;for(const ch of R.src){if(x.measureText(ln+ch).width>840){T(ln,y,38,'#FFF4DA');ln='';y+=58}ln+=ch}T(ln,y,38,'#FFF4DA');
+T('愿你一切安好接福安康 · 公众号菜单「老时辰表」领全集',1235,32,'#D4AF6A');
 T('传统文化科普',1320,40,'#D4AF6A');
 $('#cd').innerHTML='<img class="card" alt="对照卡" src="'+c.toDataURL('image/png')+'"><p class="mid"><b>长按图片即可保存</b></p>'}
 
